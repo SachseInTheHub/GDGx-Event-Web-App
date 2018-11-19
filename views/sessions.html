@@ -3,7 +3,7 @@
         color: white;
         border: 5px;
         border-bottom: 10px;
-        
+
     }
     .inactive-bar{
         color:#bbdefb;
@@ -16,9 +16,9 @@
                 <li class="nav-item active-bar" id="showSessionID" >
                     <a class="nav-link google-font" ng-click="showSession()" ><b>Sessions</b></a>
                 </li>
-                <li class="nav-item inactive-bar" id="showScheduleID" >
+                <!-- <li class="nav-item inactive-bar" id="showScheduleID" >
                     <a class="nav-link google-font" ng-click="showSchedule()" ><b>Schedule</b></a>
-                </li>
+                </li> -->
             </ul>
         </div>
     </div>
@@ -29,12 +29,12 @@
     <div class="row">
         <div class="col-md-10 offset-md-1">
             <div class="container-fluid">
-               
+
                 <div class="row pt-5">
                     <div class="col-md-8">
                         <h3 style="font-family: google-sans;color: #1a73e8;" class="animated fadeInUp">Sessions</h3>
                         <br>
-                        <p style="font-family: google-sans" class="animated fadeInUp">Hone your skills. Ask technical questions. Get inspired. This year’s program is packed with breakouts, keynotes, spotlights, panels, and bootcamps.</p>
+                        <p style="font-family: google-sans" class="animated fadeInUp">Get inspired. Learn. Use it.</p>
 
                         <p style="font-family: google-sans" class="animated fadeInUp">Check back often as we continue to add new sessions.</p>
                     </div>
@@ -55,7 +55,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
 </div>
@@ -64,7 +64,7 @@
     <div class="row">
         <div class="col-md-10 offset-md-1">
             <div class="container-fluid" ng-controller="ctrlSchedule">
-                
+
                 <div class="row pt-5">
                     <div class="col-md-8">
                         <h3 style="font-family: google-sans;color: #1a73e8;" class="animated fadeInUp">Schedule</h3>
@@ -73,7 +73,7 @@
 
                         <p style="font-family: google-sans" class="animated fadeInUp">Check back often as we continue to add new sessions.</p>
                     </div>
-                    <div class="col-md-4"> 
+                    <div class="col-md-4">
                         <div class="md-form animated fadeInUp">
                             <input type="text" id="materialLoginFormEmail" class="form-control" ng-model="search">
                             <label for="materialLoginFormEmail"><i class="fa fa-search" aria-hidden="true"></i> Search inside Schedule</label>
@@ -101,12 +101,12 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
 </div>
 
-    
+
 
 
 
@@ -116,8 +116,9 @@
         <div class="col-md-6 offset-md-3 text-center mt-5">
             <h3 style="font-family: google-sans;color: #1a73e8;" class="mb-3">{{patData.title}}</h3>
             <p>{{patData.description}}</p>
+            <p><a href="mailto:{{patData.email}}"><span style="color: #1a73e8;">{{patData.email}}</span>
             <br>
-            <div ng-repeat="pd in patData.patnersName">
+            <div ng-repeat="pd in patData.partnersName">
                 <a href="{{pd.URL}}" class="mb-5"><img src="{{pd.PatnerImg}}" width="{{pd.width}}" title="{{pd.name}}"></a>
             </div>
             <br>

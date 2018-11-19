@@ -1,58 +1,42 @@
-{   "chaperName" : "GDG Jalandhar",
+{   "chaperName" : "GDG Porto",
     "chapterSocialMediaLinks": {
-        "facebook" : "https://www.facebook.com/GDGJalandhar/",
-        "googlePlus" : "https://plus.google.com/u/0/+GdgjalandharIn/posts",
-        "twitter" : "https://twitter.com/gdgjalandhar",
-        "meetup" : "https://www.meetup.com/GDG-Jalandhar/",
-        "youtube" : "",
-        "slack" : "",
+        "facebook" : "https://www.facebook.com/GDGPorto/",
+        "googlePlus" : "",
+        "twitter" : "https://twitter.com/gdgporto",
+        "meetup" : "https://www.meetup.com/GDG-Porto/",
+        "youtube" : "https://www.youtube.com/channel/UCbk5t8o_gkmR-zQemAgDOkA",
+        "slack" : "https://gdgporto.slack.com/",
         "linkedin" : "",
         "github" : ""
     },
     "aboutSection":[
         {
-            "linkName" : "GDG Jalandhar",
-            "link" : "http://gdgjalandhar.com/"
+            "linkName" : "GDG Porto",
+            "link" : "https://www.meetup.com/GDG-Porto/"
         },
         {
             "linkName" : "Google Developers Groups",
             "link" : "https://developers.google.com/programs/community/gdg/"
         },
         {
-            "linkName" : "WomenTechamkers",
-            "link" : "https://www.womentechmakers.com/"
-        },
-        {
-            "linkName" : "Meet the Team",
-            "link" : "https://gdgjalandhar.com/#/team"
-        },
-        {
             "linkName" : "Become a Member",
-            "link" : "https://www.meetup.com/GDG-Jalandhar/"
+            "link" : "https://docs.google.com/forms/d/e/1FAIpQLSekOVgbhgerOKxSQjrTqRLs2MHh2IrH8LW9NRZlph8Ng2mJCA/viewform"
         }
     ],
     "eventResourcesSection" : [
         {
             "linkName" : "Become a Sponsor",
-            "link" : "gdgjalandhar@gmail.com"
+            "link" : "devfest@gdgporto.xyz"
         },
         {
-            "linkName" : "Call for Speaker",
-            "link" : "gdgjalandhar@gmail.com"
-        },
-        {
-            "linkName" : "Media Kit",
-            "link" : "https://drive.google.com/drive/folders/16rHDaHbuS_YApMWgJHUxygpd-A5gCkLK"
+            "linkName" : "Call for Papers",
+            "link" : "https://t.co/hMexj5LKvm"
         }
     ],
     "DevConsole" : [
         {
             "linkName" : "Google API Console",
             "link" : "https://console.developers.google.com/"
-        },
-        {
-            "linkName" : "GCP Console",
-            "link" : "https://console.cloud.google.com/"
         },
         {
             "linkName" : "Google Play Console",
@@ -69,8 +53,8 @@
             "link" : "https://docs.google.com/document/d/1Wz_w6Z7usMnXKFMpOY4IPbA35twK7Uc4CAxScGDiwOk/edit"
         },
         {
-            "linkName" : "Terms & Servies",
-            "link" : "https://docs.google.com/document/d/14g3fv9NItiB8Hd-YGYyVYd2N4LRxe6Bx3syWse_wsiA/edit?usp=sharing"
+            "linkName" : "",
+            "link" : ""
         }
     ]
 }

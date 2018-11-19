@@ -3,33 +3,10 @@
         <div class="col-md-8 offset-md-2 pt-3 pb-2">
             <br>
             <h1 style="font-family: google-sans;font-weight: 300;color: #3c4043;" class="display-5 animated fadeInUp h1-responsive"><b>Registration</b></h1>
-            <p class="google-font animated fadeInUp" ><b>{{regJson.eventInfo.eventName}}</b> Ticket Registration</p>
-            
-            <p style="font-size: 110%" class="mt-2 animated fadeInUp">{{regJson.eventInfo.confirmationMsg}}</p>
-            <p style="font-size: 110%" class="animated fadeInUp">Sign in and register to reserve seats.</p>
-            <p style="font-size: 110%" class="animated fadeInUp">If you have questions or you’re not sure how to proceed, {{regJson.chapterEmail}}.</p>
-            <br>
-
-     
+            <p class="google-font animated fadeInUp" >Ticket Registration Currently Close</p>
+            <p style="font-size: 110%" class="animated fadeInUp">As soon as we have the tickets ready you'll be able  and register to reserve seats.</p>
             <br>
             <br>
-            
-            <h3 style="font-family: google-sans" class="h3-responsive animated fadeInUp ">Step 1: Sign in </h3>
-
-            <div id="loginStatus" class="animated fadeInUp">
-                <p class="google-font">You need to sign in with a Google account or a Gmail address to register for this event.</p>
-                
-                <!-- <p style="font-family: google-sans;"><b> <i class="fa fa-warning" aria-hidden="true" style="color: #FF8800;"></i> If you are from LPU, You need not to fill this form. Just register yourself nearby help-desk at 33 & 34 block at LPU.</b></p> -->
-                
-                <button id="loginWithGoogle" class="btn m-0 btn-primary waves-effect z-depth-0 btn-md mt-3"><i class="fa fa-google" aria-hidden="true"></i>&nbsp; Sign In with Google</button>
-
-                <br><br><br>
-                
-            </div>
-
-            <div id="postLogin">
-            </div>
-            
         </div>
     </div>
 </div>
@@ -48,7 +25,7 @@
                 2. [Important] To give quality participation, we will filter/sort out the received entries based on the details you put in the registration form, so requesting you to pay attention and fill it out carefully!<br><br>
                 3. [Important] We will confirm and start sending out final registration confirmation mail.</p>
             <br>
-           
+
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 offset-md-3 ">
@@ -56,7 +33,7 @@
                             <p class="google-font mb-2 mt-2 text-muted">All field marked with an asterisk (*) are required.</p>
 
                             <br>
-                         
+
 
                             <div>
                                 <p>Is this the first time you're attending {{regJson.eventInfo.eventName}}? *</p>
@@ -80,34 +57,34 @@
                                 <input type="text" id="Form-Full-Name" ng-model="FullName" class="form-control" placeholder="Full Name" required>
                             </div>
 
-            
+
                             <div class="md-form mt-5">
                                 <small class="mb-1">Company/Organization/College</small>
                                 <input type="text" id="Form-Company-Org-Clg" ng-model="companyName" class="form-control" placeholder="Company/Organization/College" required>
                                 <small style="text-align: left">In case of College kindly write Full Name of the College</small>
                             </div>
-            
+
                             <div class="md-form mt-5">
                                 <small class="mb-1">Job Title</small>
                                 <input type="text" id="Form-Job-Title" ng-model="jobTitle" class="form-control" placeholder="Job Title" required>
                                 <small style="text-align: left">In case of Student kindly write: Student</small>
                             </div>
-            
+
                             <div class="md-form mt-5">
                                 <small class="mb-1">Contact Number</small>
                                 <input type="tel"  id="Form-Contact" ng-model="contactNumber" ng-maxlength="10" class="form-control" placeholder="Contact Number" required>
                             </div>
-            
+
                             <div class="md-form mt-5">
                                 <small class="mb-1">Do you have a GitHub repository? If so, please enter the URL.</small>
                                 <input type="url" id="Form-GitHub" ng-model="github" class="form-control" placeholder="GitHub ID" required>
                             </div>
-            
+
                             <div class="md-form mt-5">
                                 <small class="mb-1">Do you have a Stackoverflow profile? If so, please enter the URL.</small>
                                 <input type="url" id="Form-StackOverFlow" ng-model="Stackoverflow" class="form-control" placeholder="StackOverFlow ID" required>
                             </div>
-            
+
                             <div class="md-form mt-5">
                                 <small class="mb-1">Do you have a LinkedIn profile? If so, please enter the URL.</small>
                                 <input type="url" id="Form-LinkedIn" ng-model="LinkedIn" class="form-control" placeholder="LinkedIn ID" required>
@@ -119,24 +96,24 @@
                                 <input type="text" id="Form-spCode" ng-model="spcode" class="form-control" placeholder="If you received a code, please enter it here
                                 " >
                             </div>
-            
+
                             <div class="md-form mt-5">
                                 <small class="mb-1">Share your work (applications/projects/website links)</small>
                                 <textarea  type="text" ng-model="projects" id="Form-Works" class="md-textarea md-textarea-auto form-control" rows="2" placeholder="Share your work (applications/projects/website links) " required></textarea>
                                 <small>Share your applications/website/work portfolio with us, this would help us in knowing your experience and expertise. Use Comma for Multiple links.</small>
                             </div>
-            
+
                             <div class="md-form mt-5">
                                 <small class="mb-1">Why should we invite you to attend {{regJson.eventInfo.eventName}}?</small>
                                 <textarea type="text" ng-model="why" id="Form-Why" class="md-textarea md-textarea-auto form-control" rows="2" placeholder="Why should we invite you to attend {{regJson.eventInfo.eventName}}?" required ></textarea>
                                 <small>Please be careful. We have limited seats! Show us why do you deserve a seat for the {{regJson.eventInfo.eventName}}, how and why it's important for you to attend.</small>
                             </div>
-            
+
                             <div class="md-form mt-5">
                                 <small class="mb-1">Your Current City</small>
                                 <input type="text" id="Form-City" ng-model="city" class="form-control" placeholder="Your Current City" required>
                             </div>
-            
+
                             <div class="form-check mt-5">
 
                                 <input class="form-check-input" ng-model="agg1" type="checkbox" name="aggre" id="aggre1" value="accept" required
@@ -146,14 +123,14 @@
                                 <!-- <input type="checkbox" class="form-check-input" id="checkbox100" >
                                 <small class="form-check-label" for="checkbox100"></small> -->
                             </div>
-            
+
                             <div class="form-check mt-5">
                                 <input class="form-check-input" ng-model="agg2" type="checkbox" name="aggre" id="aggre2" value="accept" required>
                                 <label class="form-check-label" for="aggre2">
                                 I acknowledge that <a href="https://docs.google.com/document/d/1Wz_w6Z7usMnXKFMpOY4IPbA35twK7Uc4CAxScGDiwOk/edit?usp=sharing">{{regJson.chapterName}} Code of Conduct</a>.
                                 </label>
                             </div>
-                            
+
                             <button type="submit" class="btn btn-primary btn-md z-depth-0 m-0 mt-5">Submit</button>
                         </form>
                     </div>
@@ -161,7 +138,7 @@
             </div>
 
 
-            
+
         </div>
     </div>
     <!-- Step 1: Form -->

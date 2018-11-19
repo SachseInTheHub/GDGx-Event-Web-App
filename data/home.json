@@ -1,105 +1,87 @@
 {
-    "theme-title" : "",
-    "eventName" : "GDG DevFest'18",
+    "theme-title" : "GDG Porto",
+    "eventName" : "GDG Porto DevFest",
     "ytvideo" : "https://www.youtube.com/embed/Osn5Y6N5rG0",
-    "devfest18DetailsSmall" : "GDG DevFest Jalandhar 2018 are large, community-run developer events happening around the globe focused on community building and learning about Google’s technologies.",
-    "eventMeetupLink" : "https://www.meetup.com/GDG-Jalandhar/events/253165595/",
-    "eventDate" : "13th & 14 Oct 2018",
-    "eventTime" : "09 am to 5.30 pm",
-    "eventVenue" : "Lovely Professional University",
+    "devfest18DetailsSmall" : "DevFest is a community-run developer event that focus on bridging together the community and Google’s technologies.",
+    "eventMeetupLink" : "https://t.co/hMexj5LKvm",
+    "eventDate" : "26th January 2019",
+    "eventTime" : "From 9:00 to 17.00 pm",
+    "eventVenue" : "ISEP",
     "hashTag" : [
         {
-            "name" : "#GDGJalandhar"
+            "name" : "#GDGPorto"
         },
         {
-            "name" : "#WTMJalandhar"
+            "name" : "#DevFest"
         },
         {
-            "name" : "#GDG"
-        },
-        {
-            "name" : "#WTM"
+            "name" : "#DevFestStories"
         }
     ],
     "socialLinks":[
         {
             "name" : "facebook",
-            "link" : "https://www.facebook.com/GDGJalandhar/",
+            "link" : "https://www.facebook.com/GDGPorto/",
             "icon" : "fa-facebook"
         },
         {
-            "name" : "googleplus",
-            "link" : "https://plus.google.com/u/0/+GdgjalandharIn/posts",
-            "icon" : "fa-google-plus"
-        },
-        {
             "name" : "twitter",
-            "link" : "https://twitter.com/gdgjalandhar",
+            "link" : "https://twitter.com/gdgporto",
             "icon" : "fa-twitter"
         },
         {
             "name" : "meetup",
-            "link" : "https://www.meetup.com/GDG-Jalandhar/",
+            "link" : "https://www.meetup.com/GDG-Porto",
             "icon" : "fa-meetup"
         }
     ],
     "overviewSection":[
         {
             "title" : "Sessions",
-            "des" : "3 parallel tracks, dedicated to Android, Web and Cloud technologies",
+            "des" : "Android, Web and Cloud technologies",
             "icon" : "fa-microphone"
         },
         {
-            "title" : "Showcases",
-            "des" : "Demo zone with the latest of Google tech: Big Data, face recognition, VR, IoT - all in one place",
-            "icon" : "fa-lightbulb-o"
-        },
-        {
             "title" : "Workshops",
-            "des" : "3 workshops to get your hands dirty and create a working prototype right during the conference",
+            "des" : "Create a working prototype during the conference",
             "icon" : "fa-users"
         },
         {
+            "title" : "Showcases",
+            "des" : "Check the latest of Google tech",
+            "icon" : "fa-lightbulb-o"
+        },
+        {
             "title" : "Networking",
-            "des" : "Work hard and enjoy DevFest is the best place to meet new people",
+            "des" : "Meet the people that with you build the industry",
             "icon" : "fa-american-sign-language-interpreting"
         }
     ],
     "states":{
         "title" : "On the edge of Android, Web and Cloud.",
-        "des" : "GDG DevFest Jalandhar brings together people who shape the future of Android, Web and Cloud technologies for 2 days of sessions, workshops and networking. Described by many as 'Google I/O of Jalandhar', our team creates DevFest to be the best place for inspiration and experience sharing.",
+        "des" : "Porto DevFest will bring the people who shape the future of Android, Web and Cloud technologies. Come and see for yourself for how the experts do and use their skills to improve their day to day.",
         "previousEventHighlight" : "https://www.youtube.com/watch?v=O46SRrFxR4c",
 
         "statistics":[
             {
-                "quantity" : "300+",
+                "quantity" : "200+",
                 "title" : "Attendees",
                 "icon" : "fa-microphone"
             },
             {
-                "quantity" : "3+",
-                "title" : "Workshop",
-                "icon" : "fa-lightbulb-o"
-            },
-            {
-                "quantity" : "15+",
-                "title" : "Sessions",
-                "icon" : "fa-users"
-            },
-            {
-                "quantity" : "10+",
+                "quantity" : "8+",
                 "title" : "Speakers",
                 "icon" : "fa-american-sign-language-interpreting"
             }
         ]
     },
     "speakerSection" : {
-        "title" : "Our lineup of big thinkers and even bigger doers",
-        "des" : "Get ready to be inspired by speakers who are building a cloud full of opportunity with our partners and customers. Stay tuned as we add more dynamic speakers to our lineup." 
+        "title" : "Some of the best and brightest in the industry",
+        "des" : "You'll be inspired, learn and have opportunity to talk to some of leading front experts in the community."
     },
     "sessionsSection" : {
-        "title" : "Our Theme & Sessions",
-        "des" : "At sessions that span from the technical to the visionary, let’s celebrate and discover what the cloud can enable: how product innovation, open source, and ML and AI can propel enterprises forward and solve the big problems that impact all of us."
+        "title" : "Sessions",
+        "des" : "These sessions will let you discover what's new about the cloud, product innovation, ML and AI."
     }
-    
+
 }
