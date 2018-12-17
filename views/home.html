@@ -28,7 +28,7 @@
 
                         </ul>
 
-                        <a href="#registration" class="btn btn-primary btn-sm mt-2 m-0 waves-effect waves-light z-depth-0 animated fadeInUp google-font" style="text-transform:capitalize; font-size : 20px;">Get a Ticket</a>
+                        <a href="{{homeJson.eventTicketLink}}" class="btn btn-primary btn-sm mt-2 m-0 waves-effect waves-light z-depth-0 animated fadeInUp google-font" style="text-transform:capitalize; font-size : 20px;">Get a Ticket</a>
                         &nbsp;
 
                         <a href="{{homeJson.eventMeetupLink}}" target="_blank" class="btn btn-pink btn-sm mt-2 m-0 waves-effect waves-light z-depth-0 animated fadeInUp google-font" style="text-transform:capitalize; font-size : 20px;">Call for Papers</a>
@@ -154,18 +154,19 @@
 
         </div>
 
-
         <div class="row mt-5 pb-5">
             <div class="col-md-6 offset-md-3 text-center mt-5">
                 <h3 style="font-family: google-sans;color: #1a73e8;" class="mb-3">{{patData.title}}</h3>
                 <p>{{patData.description}}</p>
-                <p><a href="mailto:patData.email"><span style="color: #1a73e8;">{{patData.email}}</span>
-                <br>
-                <div ng-repeat="pd in patData.home.jsonpartnersName">
-                    <a href="{{pd.URL}}" class="mb-5"><img src="{{pd.PatnerImg}}" width="{{pd.width}}" title="{{pd.name}}"></a>
+                <div ng-repeat="pd in patData.partnersName">
+                    <a href="{{pd.URL}}" class="mb-5">
+                        <img src="{{pd.PartnerImg}}" width="{{pd.width}}" title="{{pd.name}}"></a>
+                    <br >
+                    <br >
                 </div>
                 <br>
                 <br>
             </div>
         </div>
+
     </div>

@@ -1,22 +1,19 @@
 [
     {
-        "name":"Coming Soon",
-        "company":"",
-        "profileImg":"assets/img/speakers/avatar.png"
+        "name":"Panayotis Tzinis - GDE",
+        "company":"X-Lab",
+        "profileImg":"assets/img/speakers/Panayotis_Tzinis.jpg",
+        "socialNetwork": "https://twitter.com/ptzinis"
     },
     {
-        "name":"Coming Soon",
-        "company":"",
-        "profileImg":"assets/img/speakers/avatar.png"
+        "name":"Inês Santos Silva",
+        "company":"Portuguese Women in Tech",
+        "profileImg":"assets/img/speakers/Ines_Santos.jpg",
+        "socialNetwork": "https://www.linkedin.com/in/inessantossilva"
     },
     {
       "name":"Coming Soon",
       "company":"",
-        "profileImg":"assets/img/speakers/avatar.png"
-    },
-    {
-        "name":"Coming Soon",
-        "company":"",
         "profileImg":"assets/img/speakers/avatar.png"
     }
 ]
